@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <a href="" class="logo">
+            <i class='bx bxs-movie'></i>Movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Upcoming</a></li>
+            <li><a href="#newsletter">News letter</a></li>
+        </ul>
+        <a href="" class="btn">Sign In</a>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide container">
+                <img src="images/home1.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Venom: Let there <br> Be Carnage</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide container">
+                <img src="images/home2.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Avengers: <br> Infinity War</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide container">
+                <img src="images/home3.jpg" alt="">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Spiderman: <br> No Way Home</h1>
+                    <a href="" class="btn">Book Now</a>
+                    <a href="" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- Movies -->
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <!-- Movies Container -->
+        <div class="movies-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c1.jpg" alt="">
+                </div>
+                <h3>Avatar</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c2.jpg" alt="">
+                </div>
+                <h3>Jurassic World</h3>
+                <span>126 min | Action , Adventure</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c3.jpg" alt="">
+                </div>
+                <h3>Killer of the flower Moon</h3>
+                <span>130 min | Action, Thriller</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c4.jpg" alt="">
+                </div>
+                <h3>Black Addams</h3>
+                <span>136 min | Adventure</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c5.jpg" alt="">
+                </div>
+                <h3>Halloween Kills</h3>
+                <span>120 min | Adventure, Thriller</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c6.jpg" alt="">
+                </div>
+                <h3>Marvick</h3>
+                <span>120 min | Action, Crime</span>
+            </div>
+            <!-- Box 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c7.jpg" alt="">
+                </div>
+                <h3>Sonic 2</h3>
+                <span>111 min | Action, Sci-Fi</span>
+            </div>
+            <!-- Box 8 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c8.jpg" alt="">
+                </div>
+                <h3>Man From Toronto</h3>
+                <span>98 min | Sci-Fi, Thriller</span>
+            </div>
+            <!-- Box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c9.png" alt="">
+                </div>
+                <h3>Django/Zoro</h3>
+                <span>109 min | Sci-Fi , Action , Thriller</span>
+            </div>
+            <!-- Box 10 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c10.jpg" alt="">
+                </div>
+                <h3>Morbius</h3>
+                <span>120 min | Adventure</span>
+            </div>
+        </div>
+    </section>
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <!-- Coming Container -->
+        <div class="coming-conatiner swiper">
+            <div class="swiper-wrapper">
+                <!-- Box 1 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m1.jpg" alt="">
+                    </div>
+                    <h3>Venom</h3>
+                    <span>120 min | Action</span>
+                </div>
+                <!-- Box 2 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m2.jpg" alt="">
+                    </div>
+                    <h3>Thor: Love and Thunder</h3>
+                    <span>126 min | Action , Adventure</span>
+                </div>
+                <!-- Box 3 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m3.jpg" alt="">
+                    </div>
+                    <h3>Black Panther :Wankanda Forever</h3>
+                    <span>130 min | Action, Thriller</span>
+                </div>
+                <!-- Box 4 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m4.jpg" alt="">
+                    </div>
+                    <h3>She Hulk</h3>
+                    <span>136 min | Adventure</span>
+                </div>
+                <!-- Box 5 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m5.jpg" alt="">
+                    </div>
+                    <h3>The Gaurdian of the Galaxy : Holiday Special</h3>
+                    <span>120 min | Adventure, Thriller</span>
+                </div>
+                <!-- Box 6 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m6.jpg" alt="">
+                    </div>
+                    <h3>Secret Invasion</h3>
+                    <span>120 min | Action, Crime</span>
+                </div>
+                <!-- Box 7 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m7.jpg" alt="">
+                    </div>
+                    <h3>Doctor Strange : Madness of Multiverse</h3>
+                    <span>111 min | Action, Sci-Fi</span>
+                </div>
+                <!-- Box 8 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m8.jpg" alt="">
+                    </div>
+                    <h3>Ant-Man and the Wasp</h3>
+                    <span>98 min | Sci-Fi, Thriller</span>
+                </div>
+                <!-- Box 9 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m9.jpg" alt="">
+                    </div>
+                    <h3>Fantastic Four</h3>
+                    <span>109 min | Sci-Fi , Action , Thriller</span>
+                </div>
+                <!-- Box 10 -->
+                <div class=" swiper-slide box">
+                    <div class="box-img">
+                        <img src="images/m10.jpg" alt="">
+                    </div>
+                    <h3>Earth to Echo</h3>
+                    <span>120 min | Adventure</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get<br> Newsletter</h2>
+        <form action="">
+            <input type="email" name="" class="email" placeholder="Enter Email..." id="" required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <a href="" class="logo">
+            <i class='bx bxs-movie'></i>Movies
+        </a>
+        <div class="social">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; ShivamDhiman All Right  Resevered.</p>
+    </div>
+    <!-- swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
